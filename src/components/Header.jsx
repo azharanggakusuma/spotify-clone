@@ -13,19 +13,17 @@ const Header = () => {
     <header className="bg-black text-white py-4 px-8">
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-bold">Browse</h1>
-        <div className="flex items-center space-x-4">
-          <div className="relative">
-            <input
-              type="text"
-              value={searchTerm}
-              onChange={handleSearchChange}
-              placeholder="Search..."
-              className="bg-gray-800 text-white rounded-full py-2 px-4 pl-10"
-            />
-            <div className="absolute left-3 top-2 text-gray-500">
-              <FaSearch />
-            </div>
+        <div className="relative">
+          <div className="absolute inset-y-0 left-3 flex items-center text-gray-500">
+            <FaSearch />
           </div>
+          <input
+            type="text"
+            value={searchTerm}
+            onChange={handleSearchChange}
+            placeholder="Search..."
+            className="bg-gray-800 text-white rounded-full py-2 px-10"
+          />
         </div>
         <div className="flex space-x-4">
           <button className="bg-white hover:bg-gray-200 text-black text-sm font-semibold rounded-full py-3 px-6">
