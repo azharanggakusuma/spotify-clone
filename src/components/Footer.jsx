@@ -32,18 +32,18 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex items-center space-x-4">
-          <a href="#" className="text-gray-900 hover:text-white">
-            <div className="rounded-full bg-white p-2">
+          <a href="#" className="text-white hover:text-gray-200">
+            <div className="rounded-full bg-secondary p-2.5">
               <FaFacebook />
             </div>
           </a>
-          <a href="#" className="text-gray-900 hover:text-white">
-            <div className="rounded-full bg-white p-2">
+          <a href="#" className="text-white hover:text-gray-200">
+            <div className="rounded-full bg-secondary p-2.5">
               <FaTwitter />
             </div>
           </a>
-          <a href="#" className="text-gray-900 hover:text-white">
-            <div className="rounded-full bg-white p-2">
+          <a href="#" className="text-white hover:text-gray-200">
+            <div className="rounded-full bg-secondary p-2.5">
               <FaInstagram />
             </div>
           </a>

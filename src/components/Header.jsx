@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-black text-white py-4 px-8">
+    <header className="bg-primary text-white py-4 px-8">
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-bold">Spotify Clone</h1>
         <div className="relative">
