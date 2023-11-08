@@ -2,6 +2,7 @@
 import React from "react";
 import Header from "./components/Header";
 import PlaylistGrid from "./components/PlaylistGrid";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <h1 className="text-3xl font-semibold mb-4">Featured Playlists</h1>
         <PlaylistGrid />
       </main>
+      <Footer />
     </div>
   );
 };
